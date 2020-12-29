@@ -8,8 +8,8 @@
     "start": "next start",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook -s ./public ",
     "build-production": "cross-env NODE_ENV=production yarn build"
   },
   "dependencies": {
